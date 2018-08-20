@@ -11,6 +11,11 @@ import (
     "encoding/base64"
 )
 
+var (
+	Version   = "0.1.0"
+	BuildTime = "2015-09-20 UTC"
+	GitHash   = "c00"
+)
 
 //type KVPair struct {
 //    Key         string
